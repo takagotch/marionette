@@ -11,11 +11,13 @@ js
   app
     app.js
     collection
+      note.js
     model
       helpers.js
       profile.js
       search.js
       tweet.js
+      note.js
     router
       approuter.js
     util
@@ -25,7 +27,11 @@ js
       timelineview.js
       profileview.js
       searchview.js
+      note.js
   external
+    require
+      require.js
+      text.js
     backbone.js
     dialog.js
     jquery-1.11.0.js
